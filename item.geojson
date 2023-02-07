@@ -1,0 +1,128 @@
+{
+    "assets": {
+        "vector_labels": {
+            "href": "https://radiantearth.blob.core.windows.net/mlhub/sen12floods/labels/s1_0_2019_03_14.geojson",
+            "title": "Flooding Labels",
+            "type": "application/geo+json",
+            "roles": [
+                "data",
+                "labels"
+            ],
+            "storage:platform": "AZURE",
+            "storage:region": "westeurope",
+            "storage:requester_pays": false,
+            "storage:tier": "hot"
+        }
+    },
+    "bbox": [
+        34.811154,
+        -19.726864,
+        34.860512,
+        -19.680119
+    ],
+    "collection": "sen12floods_s1_labels",
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    34.811154,
+                    -19.680618
+                ],
+                [
+                    34.811675,
+                    -19.726864
+                ],
+                [
+                    34.860512,
+                    -19.726364
+                ],
+                [
+                    34.859977,
+                    -19.680119
+                ],
+                [
+                    34.811154,
+                    -19.680618
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "id": "sen12floods_s1_labels_0_2019_03_14",
+    "links": [
+        {
+            "href": "../collection.json",
+            "rel": "collection",
+            "type": "application/json"
+        },
+        {
+            "href": "sen12floods_s1_labels_0_2019_03_14.json",
+            "rel": "self",
+            "type": "application/json"
+        },
+        {
+            "href": "../../catalog.json",
+            "rel": "root",
+            "type": "application/json"
+        },
+        {
+            "href": "../collection.json",
+            "rel": "parent",
+            "type": "application/json"
+        },
+        {
+            "href": "../../sen12floods_s1_source/sen12floods_s1_source_0_2019_03_14/sen12floods_s1_source_0_2019_03_14.json",
+            "rel": "source",
+            "type": "application/json"
+        }
+    ],
+    "properties": {
+        "datetime": "2019-03-14T00:00:00+0000",
+        "label:classes": [
+            {
+                "name": "FLOODING",
+                "classes": [
+                    true
+                ]
+            },
+            {
+                "name": "orbit",
+                "classes": [
+                    "ASCENDING"
+                ]
+            }
+        ],
+        "label:description": "Flooding Labels",
+        "label:properties": [
+            "FLOODING",
+            "orbit"
+        ],
+        "label:type": "vector",
+        "label:overviews": [
+            {
+                "property_key": "FLOODING",
+                "counts": [
+                    {
+                        "name": true,
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "property_key": "orbit",
+                "counts": [
+                    {
+                        "name": "ASCENDING",
+                        "count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "stac_extensions": [
+        "https://stac-extensions.github.io/storage/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/label/v1.0.1/schema.json"
+    ],
+    "stac_version": "1.0.0",
+    "type": "Feature"
+}
